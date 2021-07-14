@@ -1,0 +1,50 @@
+<mat-card>
+  <div class="inputFormDesign">
+  <mat-form-field >
+    <mat-card-title>Write here...</mat-card-title>
+    <mat-label>Input data</mat-label>
+    <div class="inputDesign">
+    <textarea matInput rows="5" cols="45" placeholder="Type....." [(ngModel)]="enteredValue">
+      </textarea></div>
+      <div class="button5">
+        <button (click)="clearInput()" mat-fab color="primary" aria-label="To delete the Content of Input Area">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+  </mat-form-field>
+</div>
+</mat-card>
+
+
+<mat-card>
+  <mat-form-field  appearance="fill">
+
+    <div class="button1">
+
+    <button (click)="paraLength()" mat-raised-button color="primary">Length</button>
+  </div>
+  <div class="button2">
+    <button (click)="paraWords()" mat-raised-button color="primary">Word Count</button>
+  </div>
+
+  <div class="button3">
+    <button (click)="UPPERCASE()" mat-raised-button color="primary">Convert to UPPERCASE</button>
+  </div>
+  <div class="button4">
+    <button (click)="lowerCase()" mat-raised-button color="primary">Convert to Lowercase</button>
+  </div>
+
+
+
+        <div class="outputClass"><textarea  disabled>{{lengthOfInput||upperCaseString || lowerCaseString ||numOfWords}}</textarea></div>
+
+
+
+
+
+
+
+
+  </mat-form-field>
+</mat-card>
+

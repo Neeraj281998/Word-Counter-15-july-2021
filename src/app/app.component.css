@@ -1,0 +1,13 @@
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+body {
+  background-image: url("N:\MEAN STACK\toDo/coverIMG.jpg");
+  background-size: cover;
+}
+
+.headerBorder {
+  color: black;
+  font-size: xx-large;
+}
