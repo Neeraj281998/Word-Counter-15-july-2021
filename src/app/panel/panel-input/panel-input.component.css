@@ -6,8 +6,7 @@ mat-card {
   background-color: rgb(231, 227, 221);
 }
 
-.inputDesign,
-textarea {
+.inputDesign {
   background-color: whitesmoke;
   width: 730px;
   height: 65px;
@@ -29,16 +28,13 @@ textarea {
   padding-right: 0.5cm;
 }
 
-mat-form-field {
-  width: 1150px;
-  font-family: sans-serif;
-}
 .ouputClass {
   width: 1200px;
 }
+mat-form-field,
 textarea {
-  width: 720px;
-  height: 55px;
+  width: 100%;
+  height: auto;
   font-size: medium;
   font-family: Georgia, "Times New Roman", Times, serif;
 }

@@ -1,18 +1,17 @@
 <mat-card>
-  <div class="inputFormDesign">
   <mat-form-field >
     <mat-card-title>Write here...</mat-card-title>
     <mat-label>Input data</mat-label>
-    <div class="inputDesign">
-    <textarea matInput rows="5" cols="45" placeholder="Type....." [(ngModel)]="enteredValue">
-      </textarea></div>
+
+    <textarea rows="5"   [(ngModel)]="enteredValue">
+      </textarea>
       <div class="button5">
         <button (click)="clearInput()" mat-fab color="primary" aria-label="To delete the Content of Input Area">
           <mat-icon>delete</mat-icon>
         </button>
       </div>
   </mat-form-field>
-</div>
+
 </mat-card>
 
 
@@ -36,14 +35,7 @@
 
 
 
-        <div class="outputClass"><textarea  disabled>{{lengthOfInput||upperCaseString || lowerCaseString ||numOfWords}}</textarea></div>
-
-
-
-
-
-
-
+        <textarea  disabled>{{lengthOfInput||upperCaseString || lowerCaseString ||numOfWords}}</textarea>
 
   </mat-form-field>
 </mat-card>
