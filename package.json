@@ -1,5 +1,5 @@
 {
-  "name": "to-do",
+  "name": "word_counter",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
